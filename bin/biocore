@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var biocore = require('biocore-node/lib/cli/bitcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['insight-bio-api', 'insight-bio-ui'];
+biocore(servicesPath, additionalServices);

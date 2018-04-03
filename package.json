@@ -1,0 +1,98 @@
+{
+  "name": "biocore",
+  "version": "4.1.7",
+  "description": "A platform to build biocoin and blockchain-based applications.",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/** --recursive",
+    "build-deb": "./scripts/build-deb"
+  },
+  "bin": {
+    "biocore": "./bin/biocore",
+    "biocored": "./bin/biocored"
+  },
+  "contributors": [
+    {
+      "name": "Romano"
+    },
+    {
+      "name": "Daniel Cousens",
+      "email": "bitcoin@dcousens.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Gordon Hall",
+      "email": "gordon@bitpay.com"
+    },
+    {
+      "name": "Jeff Garzik",
+      "email": "jgarzik@bitpay.com"
+    },
+    {
+      "name": "Kyle Drake",
+      "email": "kyle@kyledrake.net"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryanxcharles@gmail.com"
+    },
+    {
+      "name": "Stefan Thomas",
+      "email": "moon@justmoon.net"
+    },
+    {
+      "name": "Stephen Pair",
+      "email": "stephen@bitpay.com"
+    },
+    {
+      "name": "Wei Lu",
+      "email": "luwei.here@gmail.com"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biocoin/biocore.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "biocore-lib": "^0.13.21",
+    "biocore-node": "^3.1.7",
+    "insight-bio-api": "^0.4.3",
+    "insight-bio-ui": "^0.4.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
